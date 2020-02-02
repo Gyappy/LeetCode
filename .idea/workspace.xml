@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410b7352-cdce-40b2-9bad-88e963a7a81f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gatsby/sekiro/T14_LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gatsby/sekiro/T20_ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gatsby/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gatsby/Main.java" afterDir="false" />
     </list>
@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580479696696" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
@@ -76,6 +76,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1075" y="436" key="#Auto_Import" timestamp="1580630722286">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1075" y="436" key="#Auto_Import/0.0.2560.1400@0.0.2560.1400" timestamp="1580630722286" />
     <state x="1132" y="732" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580479917591">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -84,46 +88,50 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="408" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1580574157321" />
-    <state width="2138" height="390" key="GridCell.Tab.0.bottom" timestamp="1580574645350">
+    <state width="2138" height="390" key="GridCell.Tab.0.bottom" timestamp="1580634293253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2138" height="390" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1580574645350" />
-    <state width="2138" height="390" key="GridCell.Tab.0.center" timestamp="1580574645350">
+    <state width="2138" height="390" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1580634293253" />
+    <state width="2138" height="390" key="GridCell.Tab.0.center" timestamp="1580634293253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2138" height="390" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1580574645350" />
-    <state width="2138" height="390" key="GridCell.Tab.0.left" timestamp="1580574645350">
+    <state width="2138" height="390" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1580634293253" />
+    <state width="2138" height="390" key="GridCell.Tab.0.left" timestamp="1580634293253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2138" height="390" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1580574645350" />
-    <state width="2138" height="390" key="GridCell.Tab.0.right" timestamp="1580574645350">
+    <state width="2138" height="390" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1580634293253" />
+    <state width="2138" height="390" key="GridCell.Tab.0.right" timestamp="1580634293253">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2138" height="390" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1580574645350" />
-    <state width="2138" height="368" key="GridCell.Tab.1.bottom" timestamp="1580574305884">
+    <state width="2138" height="390" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1580634293253" />
+    <state width="2138" height="368" key="GridCell.Tab.1.bottom" timestamp="1580633906524">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2138" height="368" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1580574305884" />
-    <state width="2138" height="368" key="GridCell.Tab.1.center" timestamp="1580574305884">
+    <state width="2138" height="368" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1580633906524" />
+    <state width="2138" height="368" key="GridCell.Tab.1.center" timestamp="1580633906524">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2138" height="368" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1580574305884" />
-    <state width="2138" height="368" key="GridCell.Tab.1.left" timestamp="1580574305884">
+    <state width="2138" height="368" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1580633906524" />
+    <state width="2138" height="368" key="GridCell.Tab.1.left" timestamp="1580633906524">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2138" height="368" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1580574305884" />
-    <state width="2138" height="368" key="GridCell.Tab.1.right" timestamp="1580574305884">
+    <state width="2138" height="368" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1580633906524" />
+    <state width="2138" height="368" key="GridCell.Tab.1.right" timestamp="1580633906524">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2138" height="368" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1580574305884" />
-    <state x="844" y="399" key="SettingsEditor" timestamp="1580482398538">
+    <state width="2138" height="368" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1580633906524" />
+    <state x="844" y="399" key="SettingsEditor" timestamp="1580630865512">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="844" y="399" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1580482398538" />
-    <state x="1120" y="624" key="com.intellij.ide.util.TipDialog" timestamp="1580572900678">
+    <state x="844" y="399" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1580630865512" />
+    <state x="1120" y="624" key="com.intellij.ide.util.TipDialog" timestamp="1580625581341">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1120" y="624" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1580572900678" />
+    <state x="1120" y="624" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1580625581341" />
+    <state x="1145" y="471" width="672" height="678" key="search.everywhere.popup" timestamp="1580629919727">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1145" y="471" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1580629919727" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -150,8 +158,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/gatsby/sekiro/T14_LongestCommonPrefix.java</url>
-          <line>27</line>
+          <line>30</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gatsby/sekiro/T20_ValidParentheses.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -162,6 +175,9 @@
         <watch expression="data[index]" language="JAVA" />
         <watch expression="index + 1 &lt; s.length()" language="JAVA" />
         <watch expression="str.charAt(i) != t" language="JAVA" />
+        <watch expression="mMap.get(String.valueOf(s.charAt(i)))" language="JAVA" />
+        <watch expression="s.charAt(i)" language="JAVA" />
+        <watch expression="mMap" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
