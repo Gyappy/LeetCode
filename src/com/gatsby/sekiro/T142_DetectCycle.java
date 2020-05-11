@@ -2,10 +2,10 @@ package com.gatsby.sekiro;
 
 /**
  * @author guchenhui
- * @Describe: 判断链表是否成环 快慢指针
+ * @Describe:
  * @since 2020-05-11
  */
-public class T141_HasCycle {
+public class T142_DetectCycle {
 
     class ListNode {
         int val;
@@ -17,11 +17,12 @@ public class T141_HasCycle {
         }
     }
 
-    public boolean hasCycle(ListNode head) {
+    public ListNode detectCycle(ListNode head) {
         if (head == null || head.next == null) {
-            return false;
+            return null;
         }
 
+        boolean isCycle = false;
         ListNode l1, l2;
         l1 = head;
         l2 = head;
@@ -29,9 +30,18 @@ public class T141_HasCycle {
             l1 = l1.next;
             l2 = l2.next.next;
             if (l1 == l2) {
-                return true;
+                isCycle = true;
+                break;
             }
         }
-        return false;
+        if (isCycle) {
+            while (head != l1) {
+                l1 = l1.next;
+                head = head.next;
+            }
+            return head;
+        } else {
+            return null;
+        }
     }
 }
