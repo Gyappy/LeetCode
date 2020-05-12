@@ -2,7 +2,12 @@ package com.gatsby.sekiro;
 
 /**
  * @author guchenhui
- * @Describe:
+ * @Describe: dfs遍历，分两种情况
+ * 1.俩target存在继承关系，那就取深度浅的那个为result
+ * 2.俩target分处不同的左右子树，这时候在遍历过程中保留深度最浅的那个节点为result
+ * 在dfs的时候有两种情况可以更新result变量
+ * 1.当前这个节点正好是target
+ * 2.只找到一个target，并且在向上回溯的时候
  * @since 2020-05-11
  */
 
