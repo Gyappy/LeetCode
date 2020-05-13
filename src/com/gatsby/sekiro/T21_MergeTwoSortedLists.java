@@ -11,29 +11,33 @@ public class T21_MergeTwoSortedLists {
         }
     }
 
+    //时间复杂度O(n+m) 空间复杂度O(1)
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode listNode = new ListNode(0);
-        ListNode result = listNode;
-
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+        ListNode result = new ListNode(0);
+        ListNode f = result;
         while (l1 != null || l2 != null) {
-            ListNode node;
             if (l1 == null) {
-                listNode.next = l2;
-                break;
-            } else if (l2 == null) {
-                listNode.next = l1;
+                f.next = l2;
                 break;
             }
-
-
-            listNode.next = new ListNode(Math.min(l1.val, l2.val));
-            listNode = listNode.next;
-
+            if (l2 == null) {
+                f.next = l1;
+                break;
+            }
             if (l1.val < l2.val) {
+                f.next = l1;
                 l1 = l1.next;
             } else {
+                f.next = l2;
                 l2 = l2.next;
             }
+            f = f.next;
         }
         return result.next;
     }
