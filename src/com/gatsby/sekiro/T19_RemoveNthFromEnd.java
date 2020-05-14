@@ -2,7 +2,8 @@ package com.gatsby.sekiro;
 
 /**
  * @author guchenhui
- * @Describe: 非常恶心的递归模拟，需要处理一些边界情况，难度绝对不到medium，就是恶心，此题性价比较低不建议刷
+ * @Describe: 非常恶心的递归模拟，需要处理一些边界情况，难度绝对不到medium
+ *            改用双指针方案 会简单很多
  * @since 2020-05-13
  */
 public class T19_RemoveNthFromEnd {
