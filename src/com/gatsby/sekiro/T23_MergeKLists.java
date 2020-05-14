@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 /**
  * @author guchenhui
- * @Describe:
+ * @Describe: 用优先级队列优化
  * @since 2020-05-12
  */
 public class T23_MergeKLists {
