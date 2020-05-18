@@ -15,8 +15,6 @@ public class T543_DiameterOfBinaryTree {
         TreeNode(int x) {
             val = x;
         }
-
-
     }
 
     int depth;

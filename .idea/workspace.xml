@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410b7352-cdce-40b2-9bad-88e963a7a81f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gatsby/sekiro/T543_DiameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gatsby/sekiro/M04_04_IsBalanced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gatsby/sekiro/T543_DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gatsby/sekiro/T543_DiameterOfBinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,14 +58,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gatsby/sekiro/T543_DiameterOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#251#252#0" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gatsby/sekiro/M04_04_IsBalanced.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,12 +162,14 @@
         <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/T19_RemoveNthFromEnd.java" />
         <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/T22_GetKthFromEnd.java" />
         <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/T543_DiameterOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/IsBalanced.java" />
+        <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/M04_04_IsBalanced.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1791" />
-    <option name="y" value="33" />
+    <option name="x" value="1754" />
+    <option name="y" value="52" />
     <option name="width" value="1680" />
     <option name="height" value="985" />
   </component>
@@ -310,7 +326,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1791" y="33" width="1680" height="985" extended-state="0" />
+    <frame x="1754" y="52" width="1680" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
@@ -324,7 +340,7 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
@@ -549,11 +565,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gatsby/sekiro/T543_DiameterOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gatsby/sekiro/M04_04_IsBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
           </folding>
         </state>
       </provider>
