@@ -2,7 +2,7 @@ package com.gatsby.sekiro;
 
 /**
  * @author guchenhui
- * @Describe:
+ * @Describe: 判断是否是平衡二叉树 简单的dfs
  * @since 2020-05-18
  */
 public class M04_04_IsBalanced {
