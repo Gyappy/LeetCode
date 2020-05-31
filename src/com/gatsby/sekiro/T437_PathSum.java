@@ -24,31 +24,11 @@ public class T437_PathSum {
     int result = 0;
     List<Integer> mStack = new ArrayList<>();
 
-    public void rukou() {
-        TreeNode rootTreeNode = new TreeNode(10);
-
-        rootTreeNode.left = new TreeNode(5);
-        rootTreeNode.right = new TreeNode(-3);
-
-        rootTreeNode.left.left = new TreeNode(3);
-        rootTreeNode.left.right = new TreeNode(2);
-
-        rootTreeNode.left.left.left = new TreeNode(3);
-        rootTreeNode.left.left.right = new TreeNode(-2);
-        rootTreeNode.left.right.right = new TreeNode(1);
-
-        rootTreeNode.right.right = new TreeNode(11);
-
-        pathSum(rootTreeNode, 8);
-    }
-
     public int pathSum(TreeNode root, int sum) {
         if (root == null) return result;
 
         mStack.add(root.val);
-        if (checkSum(sum)) {
-            result++;
-        }
+        result += checkSum(sum);
 
         if (root.left != null) {
             pathSum(root.left, sum);
@@ -63,16 +43,17 @@ public class T437_PathSum {
         return result;
     }
 
-    public boolean checkSum(int sum) {
+    public int checkSum(int sum) {
         int len = mStack.size();
         int total = 0;
-        for (int i = len - 1; i > 0; i--) {
+        int result = 0;
+        for (int i = len - 1; i >= 0; i--) {
             total += mStack.get(i);
-            if (total >= sum) {
-                break;
+            if (total == sum) {
+                result++;
             }
         }
-        return total == sum;
+        return result;
     }
 
 }
