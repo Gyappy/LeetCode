@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410b7352-cdce-40b2-9bad-88e963a7a81f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gatsby/sekiro/T111_MinDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gatsby/sekiro/T235_LowestCommonAncestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gatsby/sekiro/T102_LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gatsby/sekiro/T102_LevelOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,14 +88,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gatsby/sekiro/T111_MinDepth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gatsby/sekiro/T235_LowestCommonAncestor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+              <folding>
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/T257_BinaryTreePaths.java" />
         <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/T102_LevelOrder.java" />
         <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/T111_MinDepth.java" />
+        <option value="$PROJECT_DIR$/src/com/gatsby/sekiro/T235_LowestCommonAncestor.java" />
       </list>
     </option>
   </component>
@@ -737,11 +750,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gatsby/sekiro/T111_MinDepth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gatsby/sekiro/T235_LowestCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
